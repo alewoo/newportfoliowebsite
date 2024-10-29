@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <header
+      {/* <header
         className={`py-4 sticky top-0 z-50 transition-colors duration-300 ${
           isScrolled ? "bg-black/50 backdrop-blur-sm" : ""
         }`}
@@ -41,7 +41,7 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-      </header>
+      </header> */}
 
       <main className="container mx-auto px-4 py-16">
         <motion.section
@@ -92,7 +92,7 @@ export default function Home() {
               <Twitter size={24} />
             </a>
             <a
-              href="https://www.youtube.com/yourchannel"
+              href="https://www.youtube.com/@imalexwang"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-300 transition-colors"
@@ -275,13 +275,13 @@ export default function Home() {
         </motion.section>
       </main>
 
-      <footer className="bg-gray-900 py-6">
+      {/* <footer className="bg-gray-900 py-6">
         <div className="container mx-auto px-4 text-center text-gray-400">
           <p>
             &copy; {new Date().getFullYear()} Alex Wang. All rights reserved.
           </p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
