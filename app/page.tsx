@@ -205,6 +205,17 @@ export default function Home() {
                 accuracy by 15% over baseline.
               </p>
             </div>
+            <div className="bg-gray-900 p-6 rounded-lg">
+              <h3 className="text-xl font-semibold text-blue-300 mb-2">
+                Design Center
+              </h3>
+              <p className="text-indigo-400 mb-2">Jun 2020 - Feb 2021</p>
+              <p className="text-gray-300">
+                Built an online community providing graphic designs to over
+                1.5k+ members during COVID. Created design tutorials on YouTube
+                garnering 15k+ views.
+              </p>
+            </div>
           </div>
         </motion.section>
 
