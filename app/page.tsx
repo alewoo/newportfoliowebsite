@@ -59,7 +59,7 @@ export default function Home() {
           />
           <h1 className="text-6xl font-bold mb-4 text-blue-400">Alex Wang</h1>
           <p className="text-xl mb-8 text-gray-300">
-            Software Engineer | AI Enthusiast | Entrepreneur
+            Software Engineer | Entrepreneur | AI Enthusiast
           </p>
           <motion.div
             className="flex justify-center space-x-6 mb-12"
